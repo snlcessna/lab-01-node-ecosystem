@@ -13,10 +13,10 @@
 * [Jest Globals](https://facebook.github.io/jest/docs/en/api.html#content)
 * [Jest Expect](https://facebook.github.io/jest/docs/en/expect.html#content)
 
-## Configuration 
+## Configuration
 Configure the root of your repository with the following files and directories. Thoughfully name and organize any aditional configuration or module files.
 * **README.md** - contains documentation
-* **.gitignore** - contains a [robust](http://gitignore.io) `.gitignore` file 
+* **.gitignore** - contains a [robust](http://gitignore.io) `.gitignore` file
 * **.eslintrc** - contains the course linter configuratoin
 * **.eslintignore** - contains the course linter ignore configuration
 * **lib/** - contains module definitions
@@ -24,7 +24,7 @@ Configure the root of your repository with the following files and directories. 
 
 ## Feature Tasks
 #### Greet Module
-Create a NodeJS module in the lib/ directory named `greet.js` that exports a single function. 
+Create a NodeJS module in the lib/ directory named `greet.js` that exports a single function.
 * The `greet` function should have a single parameter (arity of one) that should expect a string as it's input
 * The `greet` function should return the input name, concatenated with "hello ": eg. ("hello susan")
 * The `greet` function should return `null` if the input is not a string
@@ -50,3 +50,5 @@ Create a NodeJS module in the lib/ directory named `arithmetic.js` that exports 
 
 ## Documentation  
 In your README.md describe the exported values of each module defined in your lib/ directory. Every function description should include it's airty (expected number of paramiters), the expected data for each paramiter (data-type and limitations), and the it's output behavior (for both valid and invalued use). Feel free to write any additional information in your README.md.
+<!----lab-larry--->
+The arithmetic.js file declares module.exports function for addition and subtraction. It first performs a check to ensure that the a and b values are in fact a number. If it passes the test then it returns the sum of a and b, or, in the case of function 'sub' it will return a minus b. If either test fails then the function will return a 'null'.
